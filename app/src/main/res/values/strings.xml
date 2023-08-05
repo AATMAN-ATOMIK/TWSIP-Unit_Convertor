@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Unit Calculator</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="home">Home</string>
+    <string name="temperature">Temperature</string>
+    <string name="common">Common</string>
+    <string name="it">I.T Related / Storage</string>
+    <string name="life">Daily Life</string>
+    <string name="from">From :- </string>
+    <string name="calculate">Calculate</string>
+    <string name="to_provide_back_press_functionality">To Provide Back Press Functionality</string>
+    <string name="enter_value">Enter Value</string>
+    <string name="converted_value">Converted Value</string>
+    <string name="to">To :- </string>
+    <string name="unit_name">Unit Converter</string>
+</resources>

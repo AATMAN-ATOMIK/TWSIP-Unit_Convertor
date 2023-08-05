@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_catagory"
+    android:layout_width="120dp"
+    android:padding="10dp"
+    android:elevation="15dp"
+    android:layout_marginTop="20dp"
+    android:backgroundTint="@color/white"
+    android:background="@color/white"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/thermometer" />
+
+        <TextView
+            android:layout_below="@id/c_image"
+            android:id="@+id/c_name"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/blue"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temperature"
+            android:textAlignment="gravity"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
